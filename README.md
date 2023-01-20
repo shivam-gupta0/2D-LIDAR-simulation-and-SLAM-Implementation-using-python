@@ -1,4 +1,4 @@
-# 2D-LIDAR-simulation-and-SLAM
+# 2D LIDAR simulation and SLAM Implementation using Python
 Refrence: https://journals.sagepub.com/doi/pdf/10.1177/1729881418755245 \
 **A line segment extraction algorithm
 using laser data based on seeded
