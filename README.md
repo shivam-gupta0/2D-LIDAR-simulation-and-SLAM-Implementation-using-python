@@ -13,9 +13,9 @@ The simulation is run using Pygame library, which is used to display the sensor 
 The simulation was implemented using Pygame library which provides an interactive and visual way to display the sensor data and detected features. 
 
 ![feature](https://user-images.githubusercontent.com/85798077/213577668-76031d64-2ef1-4a42-8c25-2a74839d03f5.png)
-![f2](https://user-images.githubusercontent.com/85798077/213577712-76c75900-9f7e-4a42-af24-973d3041faa2.png)
-![s](https://user-images.githubusercontent.com/85798077/213577733-e3cbb8f7-96d0-4334-bf00-e21f2caf2d6c.png)
 
+
+![ezgif com-optimize](https://user-images.githubusercontent.com/85798077/229351322-a78ef329-0bfb-45ca-a803-5bc1e7874be4.gif)
 
 
 
