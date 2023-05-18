@@ -5,6 +5,20 @@ This repository contains an implementation of a line segment extraction algorith
 **Line Segment Extraction Algorithm using Laser Data and Seeded Region Growing**<br>
 
 
+
+Development of a 2D LIDAR sensor and SLAM (Simultaneous Localization and Mapping) algorithm to detect features from the sensor data. The sensor is simulated using the LaserSensors class, which has methods to calculate the distance between the sensor and an obstacle, and sense obstacles in the environment. The sensor adds uncertainty to the sensor data using the uncertainty_add function. <br>
+
+The SLAM algorithm is implemented using the featuresDetection class which has several methods that process the sensor data and detect features in the environment. The methods include distance calculation between points and lines, line-fitting, and point projection. The class also has methods for converting between different line representation and for detecting and growing seed segments. <br>
+
+The simulation is run using Pygame library, which is used to display the sensor data and detected features on the map of the environment. The simulation starts by initializing the environment, sensor, and feature detection classes. The sensor data is collected by moving a cursor on the screen, which simulates the movement of the robot. The sensor data is then processed by the SLAM algorithm, and features are detected and displayed on the map of the environment. <br>
+
+The simulation was implemented using Pygame library which provides an interactive and visual way to display the sensor data and detected features. <br>
+
+![feature](https://user-images.githubusercontent.com/85798077/213577668-76031d64-2ef1-4a42-8c25-2a74839d03f5.png)<br>
+
+
+![ezgif com-optimize](https://user-images.githubusercontent.com/85798077/229351322-a78ef329-0bfb-45ca-a803-5bc1e7874be4.gif)<br><br>
+
 **Features:**
 
 - Accurately extracts line segments from laser data using the seeded region growing technique.<br>
@@ -43,21 +57,6 @@ To use this line segment extraction algorithm, follow these steps:<br>
 
 For a complete example, refer to the example.py file in this repository.<br>
 
-
-**A line segment extraction algorithm using laser data based on seeded region growing** <br>
-
-Development of a 2D LIDAR sensor and SLAM (Simultaneous Localization and Mapping) algorithm to detect features from the sensor data. The sensor is simulated using the LaserSensors class, which has methods to calculate the distance between the sensor and an obstacle, and sense obstacles in the environment. The sensor adds uncertainty to the sensor data using the uncertainty_add function. <br>
-
-The SLAM algorithm is implemented using the featuresDetection class which has several methods that process the sensor data and detect features in the environment. The methods include distance calculation between points and lines, line-fitting, and point projection. The class also has methods for converting between different line representation and for detecting and growing seed segments. <br>
-
-The simulation is run using Pygame library, which is used to display the sensor data and detected features on the map of the environment. The simulation starts by initializing the environment, sensor, and feature detection classes. The sensor data is collected by moving a cursor on the screen, which simulates the movement of the robot. The sensor data is then processed by the SLAM algorithm, and features are detected and displayed on the map of the environment. <br>
-
-The simulation was implemented using Pygame library which provides an interactive and visual way to display the sensor data and detected features. <br>
-
-![feature](https://user-images.githubusercontent.com/85798077/213577668-76031d64-2ef1-4a42-8c25-2a74839d03f5.png)<br>
-
-
-![ezgif com-optimize](https://user-images.githubusercontent.com/85798077/229351322-a78ef329-0bfb-45ca-a803-5bc1e7874be4.gif)<br><br>
 
 
 **Future Enhancements:**<br>
